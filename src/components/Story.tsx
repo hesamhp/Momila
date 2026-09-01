@@ -5,16 +5,16 @@ import SectionHeading from "./SectionHeading";
 
 const values = [
   {
-    title: "مواد سالم و استاندارد کودک",
-    desc: "کاغذ کرم بدون آزار چشم، جوهر و مواد با گواهی بهداشت",
+    title: "بهترین کیفیت در کنار بهترین دیزاین ها",
+    desc: "چون شما و کودک شما برای ما ارزشمندید",
   },
   {
-    title: "طراحی اختصاصی فارسی",
-    desc: "سطرنویسی، حاشیه و جلدهایی که برای مدرسه‌ی ما طراحی شده‌اند",
+    title: "کمپین های متنوع",
+    desc: "لذت رقابت همراه با خریدی لذت بخش",
   },
   {
-    title: "نسخه‌های محدود هر فصل",
-    desc: "هر ترم یک کالکشن رنگی تازه، الهام‌گرفته از رویاهای بچه‌ها",
+    title: "کامل از تنوع",
+    desc: "از پاک کن تا کیف مدرسه اتون رو تامین میکنیم",
   },
 ];
 
@@ -47,7 +47,7 @@ export default function Story() {
               <p className="text-[11px] font-black leading-5 text-lilac-700">
                 از سالِ
                 <br />
-                <span className="text-base">۱۳۹۸</span>
+                <span className="text-base">۱۴۰۰</span>
                 <br />
                 کنار شما
               </p>
@@ -65,7 +65,7 @@ export default function Story() {
                 </span>
                 <span>
                   <span className="block text-sm font-extrabold">
-                    +۱۵ هزار خانواده
+                    +۵۰۰  خانواده
                   </span>
                   <span className="block text-[11px] font-medium text-mist">
                     هر مهر با مومیلا به مدرسه می‌روند
@@ -92,19 +92,16 @@ export default function Story() {
             icon={BookHeart}
             title={
               <>
-                از یک کشوی کوچک،
+                از یک فکر کوچک،
                 <br />
-                تا هزاران <span className="marker-blush">کیف مدرسه</span>
+                تا صدها <span className="marker-blush">کیف مدرسه</span>
               </>
             }
           />
 
           <Reveal delay={0.2}>
             <p className="mt-6 text-sm leading-8 text-mist sm:text-[15px] sm:leading-9">
-              مومیلا سال ۱۳۹۸ با یک سؤال ساده شروع شد: چرا لوازم‌التحریر
-              مدرسه باید خشک و بیروح باشد؟ ما دفترهایی می‌سازیم که بچه‌ها
-              از باز کردنشان لذت ببرند؛ با رنگ‌های پاستلی آرام، کاغذ کرمِ
-              مهربان با چشم و طرح‌هایی که هر ترم تازه می‌شوند.
+              مومیلا سال ۱۴۰۰ با هدف رنگی کردن دنیای کودکان شروع به کار کرد و حالا مفتخریم که تونستیم با جمع اوری و عرضه محصولات فانتزی کودک در ارتقای سلیقه و خلاقیت صدها کودک سهیم باشیم.
             </p>
           </Reveal>
           <Reveal delay={0.28}>
