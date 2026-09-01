@@ -10,7 +10,7 @@ type LogoProps = {
 export default function Logo({ className = "h-10 w-10" }: LogoProps) {
   return (
     <img
-      src="/images/logo.png"
+      src="https://momilalogo.vercel.app/logo.png"
       alt="لوگوی مومیلا"
       className={`${className} rounded-[30%] object-cover`}
     />
