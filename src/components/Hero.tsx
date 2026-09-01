@@ -3,8 +3,8 @@ import { ArrowLeft, Heart, Sparkles, Star, Truck } from "lucide-react";
 import Reveal from "./Reveal";
 
 const stats = [
-  { value: "+۱۲۰", label: "محصول اورجینال" },
-  { value: "+۱۵ هزار", label: "خانواده‌ی همراه" },
+  { value: "+۱۲۰", label: "محصول متفاوت" },
+  { value: "+۵۰۰", label: "خانواده‌ی همراه" },
   { value: "٪۹۸", label: "رضایت از خرید" },
 ];
 
@@ -154,7 +154,7 @@ export default function Hero() {
               <p className="px-3 text-[11px] font-black leading-5 text-amber-800">
                 ٪۱۰۰
                 <br />
-                اورجینال
+                با کیفیت
               </p>
             </motion.div>
 
