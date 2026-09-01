@@ -22,63 +22,63 @@ const customers: Customer[] = [
   {
     name: "کیان",
     city: "اصفهان",
-    likes: "۳۹۶",
+    likes: "",
     img: "https://images.pexels.com/photos/8500628/pexels-photo-8500628.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
     aspect: "aspect-[4/5]",
   },
   {
     name: "باران",
     city: "شیراز",
-    likes: "۵۱۲",
+    likes: "",
     img: "https://images.pexels.com/photos/12886928/pexels-photo-12886928.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
     aspect: "aspect-square",
   },
   {
     name: "نیکا",
     city: "مشهد",
-    likes: "۲۸۷",
+    likes: "",
     img: "https://images.pexels.com/photos/5212318/pexels-photo-5212318.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
     aspect: "aspect-[3/4]",
   },
   {
     name: "سام",
     city: "تبریز",
-    likes: "۶۰۴",
+    likes: "",
     img: "https://images.pexels.com/photos/8423909/pexels-photo-8423909.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
     aspect: "aspect-[4/5]",
   },
   {
     name: "ترانه",
     city: "کرج",
-    likes: "۳۴۳",
+    likes: "",
     img: "https://images.pexels.com/photos/4910506/pexels-photo-4910506.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
     aspect: "aspect-[3/4]",
   },
   {
     name: "رها",
     city: "رشت",
-    likes: "۴۵۷",
+    likes: "",
     img: "https://images.pexels.com/photos/4964521/pexels-photo-4964521.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
     aspect: "aspect-square",
   },
   {
     name: "آرتین",
     city: "یزد",
-    likes: "۲۹۸",
+    likes: "",
     img: "https://images.pexels.com/photos/5212324/pexels-photo-5212324.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
     aspect: "aspect-[4/5]",
   },
   {
     name: "پارسا",
     city: "قم",
-    likes: "۵۳۶",
+    likes: "",
     img: "https://images.pexels.com/photos/7692511/pexels-photo-7692511.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
     aspect: "aspect-[3/4]",
   },
   {
     name: "درسا",
     city: "اهواز",
-    likes: "۴۱۱",
+    likes: "",
     img: "https://images.pexels.com/photos/8617947/pexels-photo-8617947.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
     aspect: "aspect-[4/5]",
   },
@@ -105,7 +105,7 @@ export default function Customers() {
               قاب‌های رنگیِ <span className="marker">مشتری‌های</span> ما
             </>
           }
-          description="بیش از ۱۵ هزار خانواده هر مهر با مومیلا به مدرسه می‌روند؛ این چند قاب، هدیه‌ی دوستان کوچک و بزرگ ماست."
+          description="بیش از ۵۰۰ خانواده هر مهر با مومیلا به مدرسه می‌روند؛ این چند قاب، هدیه‌ی دوستان کوچک و بزرگ ماست."
         />
 
         <Reveal delay={0.18} className="mt-8 flex justify-center">
@@ -118,7 +118,7 @@ export default function Customers() {
             <span className="font-black text-blush-400">#مومیلا_ما</span>
             کنار ما باشید
             <span dir="ltr" className="font-black text-lilac-500">
-              @momila.ir
+              @momilaland
             </span>
           </a>
         </Reveal>
@@ -167,7 +167,7 @@ export default function Customers() {
 
         <Reveal delay={0.1} className="mt-10 text-center">
           <p className="text-xs font-semibold text-mist sm:text-sm">
-            هر هفته ده‌ها قابِ تازه از دوستان مومیلا از سراسر کشور می‌رسد
+           میتونی خودتو تو اینجا پیدا کنی!
           </p>
         </Reveal>
       </div>
