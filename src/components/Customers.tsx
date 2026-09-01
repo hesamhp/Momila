@@ -15,7 +15,7 @@ const customers: Customer[] = [
   {
     name: "آوا",
     city: "تهران",
-    likes: "۴۸۲",
+    likes: "",
     img: "https://images.pexels.com/photos/35745616/pexels-photo-35745616.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
     aspect: "aspect-[3/4]",
   },
