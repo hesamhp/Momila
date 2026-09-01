@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { Camera, Menu, Sparkles, X } from "lucide-react";
+import { Camera, Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
+import Logo from "./Logo";
 
 const links = [
   { label: "دوستان مومیلا", href: "#customers" },
@@ -34,9 +35,7 @@ export default function Navbar() {
       >
         {/* logo */}
         <a href="#hero" className="flex items-center gap-2.5">
-          <span className="grid h-10 w-10 place-items-center rounded-2xl bg-gradient-to-br from-lilac-500 to-lilac-700 text-white shadow-md shadow-lilac-300">
-            <Sparkles className="h-5 w-5" />
-          </span>
+          <Logo className="h-10 w-10 drop-shadow-[0_4px_10px_rgba(139,99,220,0.5)] transition-transform duration-300 hover:rotate-6 hover:scale-105" />
           <span className="leading-none">
             <span className="block text-lg font-black tracking-tight">
               مومیلا

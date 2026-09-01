@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Sparkles } from "lucide-react";
+import Logo from "./Logo";
 
 export default function Preloader() {
   return (
@@ -19,13 +19,13 @@ export default function Preloader() {
         initial={{ scale: 0.5, opacity: 0, rotate: -12 }}
         animate={{ scale: 1, opacity: 1, rotate: 0 }}
         transition={{ type: "spring", stiffness: 200, damping: 16 }}
-        className="relative grid h-20 w-20 place-items-center rounded-[1.75rem] bg-gradient-to-br from-lilac-500 to-lilac-700 text-white shadow-2xl shadow-lilac-300"
+        className="relative"
       >
-        <Sparkles className="h-9 w-9" />
+        <Logo className="h-20 w-20 drop-shadow-[0_14px_28px_rgba(163,127,232,0.55)]" />
         <motion.span
-          animate={{ scale: [1, 1.25, 1], opacity: [0.6, 0, 0.6] }}
+          animate={{ scale: [1, 1.22, 1], opacity: [0.6, 0, 0.6] }}
           transition={{ duration: 1.6, repeat: Infinity, ease: "easeInOut" }}
-          className="absolute inset-0 rounded-[1.75rem] border-2 border-lilac-400"
+          className="absolute -inset-2 rounded-[1.6rem] border-2 border-lilac-400/70"
         />
       </motion.div>
 

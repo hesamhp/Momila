@@ -6,8 +6,8 @@ import {
   Phone,
   Play,
   Send,
-  Sparkles,
 } from "lucide-react";
+import Logo from "./Logo";
 
 const quickLinks = [
   { label: "دوستان مومیلا", href: "#customers" },
@@ -39,9 +39,7 @@ export default function Footer() {
           {/* brand */}
           <div>
             <a href="#hero" className="flex items-center gap-2.5">
-              <span className="grid h-11 w-11 place-items-center rounded-2xl bg-gradient-to-br from-lilac-400 to-lilac-600 text-white shadow-lg shadow-lilac-600/40">
-                <Sparkles className="h-5 w-5" />
-              </span>
+              <Logo className="h-11 w-11 drop-shadow-[0_6px_16px_rgba(116,79,196,0.55)] transition-transform duration-300 hover:-rotate-6 hover:scale-105" />
               <span className="leading-none">
                 <span className="block text-xl font-black text-white">
                   مومیلا
