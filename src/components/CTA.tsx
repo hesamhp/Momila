@@ -53,7 +53,7 @@ export default function CTA() {
               </h2>
               <p className="mx-auto mt-5 max-w-xl text-sm leading-8 text-lilac-100 sm:text-base sm:leading-9">
                 همین حالا عضو خبرنامه شوید تا ۱۰٪ تخفیف اولین خرید را هدیه
-                بگیرید و از کالکشن‌های محدودِ هر فصل، زودتر از همه باخبر شوید.
+                بگیرید و از محصولات جدید هر فصل، زودتر از همه باخبر شوید.
               </p>
 
               {done ? (
@@ -92,7 +92,7 @@ export default function CTA() {
               )}
 
               <p className="mt-5 text-[11px] font-medium text-lilac-200/90">
-                بدون اسپم، قول می‌دهیم؛ فقط خبرهای خوب و رنگی
+               بدون تبلیغات مزاحم
               </p>
             </div>
           </div>

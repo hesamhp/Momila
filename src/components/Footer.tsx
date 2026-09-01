@@ -50,7 +50,7 @@ export default function Footer() {
               </span>
             </a>
             <p className="mt-5 max-w-xs text-[13px] leading-7 text-lilac-300">
-              برند لوازم‌التحریر مدرسه با رنگ‌های پاستلی و طراحی کودک‌پسند;
+              فروشنده لوازم‌التحریر مدرسه با تنوع زیاد و طراحی کودک‌پسند;
               چون باور داریم خلاقیت، از یک دفترِ دوست‌داشتنی شروع می‌شود.
             </p>
             <div className="mt-6 flex gap-2.5">
@@ -109,7 +109,7 @@ export default function Footer() {
                 <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-white/5 text-lilac-300">
                   <Phone className="h-4 w-4" />
                 </span>
-                <span dir="ltr">۰۲۱ - ۲۸ ۴۲ ۶۰ ۸۰</span>
+                <span dir="ltr">۰۹۱۱ ۶۸۱ ۵۴۵۸</span>
               </li>
               <li className="flex items-center gap-3">
                 <span className="grid h-9 w-9 shrink-0 place-items-center rounded-xl bg-white/5 text-lilac-300">
@@ -122,7 +122,7 @@ export default function Footer() {
                   <MapPin className="h-4 w-4" />
                 </span>
                 <span className="leading-6">
-                  تهران، خیابان انقلاب، کوچه‌ی بنفشه‌ها، پلاک ۱۲
+                  جویبار ، خیابان فلان و کوچه فلان
                 </span>
               </li>
             </ul>
@@ -135,7 +135,7 @@ export default function Footer() {
             © ۱۴۰۵ مومیلا؛ همه‌ی حقوق محفوظ است
           </p>
           <p className="flex items-center gap-1.5 text-[12px] font-semibold text-lilac-300">
-            ساخته‌شده با
+            ساخته‌شده توسط Hesvm با
             <Heart className="h-3.5 w-3.5 fill-blush-400 text-blush-400" />
             برای مدرسه‌ی بچه‌ها
           </p>
