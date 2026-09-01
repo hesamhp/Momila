@@ -47,22 +47,21 @@ export default function Countdown() {
                 <span className="marker">اولِ مهر</span>
               </h2>
               <p className="mt-4 text-[13.5px] leading-8 text-mist">
-                کالکشن «مهر ۱۴۰۵» با رنگ‌های تازه در راه است؛ اعضای خبرنامه،
-                ۲۴ ساعت زودتر از همه دعوت می‌شوند.
+                برای سال تحصیلی جدید آماده ای
               </p>
               {arrived ? (
                 <p className="mt-6 inline-flex items-center gap-2 rounded-full bg-mint-100 px-5 py-3 text-sm font-black text-emerald-700">
                   <PartyPopper className="h-4 w-4" />
-                  مهر رسید؛ کالکشن جدید منتظر شماست
+                  مهر رسید؛ مدرسه منتظر شماست
                 </p>
               ) : (
-                <a
-                  href="#newsletter"
-                  className="group mt-6 inline-flex items-center gap-2 rounded-full bg-ink px-6 py-3.5 text-sm font-bold text-white shadow-lg transition hover:bg-lilac-800 active:scale-95"
-                >
-                  زودتر خبرم کنید
-                  <ArrowLeft className="h-4 w-4 transition-transform duration-300 group-hover:-translate-x-1" />
-                </a>
+                // <a
+                //   href="#newsletter"
+                //   className="group mt-6 inline-flex items-center gap-2 rounded-full bg-ink px-6 py-3.5 text-sm font-bold text-white shadow-lg transition hover:bg-lilac-800 active:scale-95"
+                // >
+                //   زودتر خبرم کنید
+                //   <ArrowLeft className="h-4 w-4 transition-transform duration-300 group-hover:-translate-x-1" />
+                // </a>
               )}
             </div>
 
