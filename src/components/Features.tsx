@@ -12,7 +12,7 @@ const features = [
   {
     icon: ShieldCheck,
     title: "کیفیت تضمینی",
-    desc: "کاغذ ۸۰ گرمی کرم، جوهر و مواد استانداردِ کودک؛ هر محصول پیش از ارسال، کنترل کیفیت می‌شود.",
+    desc: "تمام محصولات ما با کیفیت هستند",
     iconCls: "bg-lilac-100 text-lilac-600",
     glowCls: "bg-lilac-200/50",
   },
@@ -26,14 +26,14 @@ const features = [
   {
     icon: BadgePercent,
     title: "قیمتِ منصفانه",
-    desc: "خرید مستقیم از تولید و بدون واسطه؛ کیفیت بالا با قیمتی که با بودجه‌ی مدرسه جور درمی‌آید.",
+    desc: "برای ما رضایت خرید شما مهم ترین چیزه",
     iconCls: "bg-butter-100 text-butter-500",
     glowCls: "bg-butter-200/50",
   },
   {
     icon: Palette,
-    title: "طراحی اختصاصی",
-    desc: "هر جلد و هر رنگ را تیم کوچک ما خلق می‌کند؛ کالکشن‌های محدود و تازه برای هر فصل مدرسه.",
+    title: "جمع اوری دقیق",
+    desc: "با دقت بالا بهترین طرح هارو انتخاب میکنیم",
     iconCls: "bg-mint-100 text-emerald-600",
     glowCls: "bg-emerald-100/60",
   },
@@ -58,7 +58,7 @@ export default function Features() {
               <span className="marker">درخشان</span>
             </>
           }
-          description="ما می‌دانیم کیف مدرسه چقدر مهم است؛ برای همین هر جزئیات را مثل یک والد وسواسی بررسی می‌کنیم."
+          description="ما می‌دانیم مدرسه چقدر مهم است؛ برای همین مثل یک والد وسواسی بررسی می‌کنیم."
         />
 
         <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
