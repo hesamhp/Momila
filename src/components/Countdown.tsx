@@ -55,13 +55,13 @@ export default function Countdown() {
                   مهر رسید؛ مدرسه منتظر شماست
                 </p>
               ) : (
-                // <a
-                //   href="#newsletter"
-                //   className="group mt-6 inline-flex items-center gap-2 rounded-full bg-ink px-6 py-3.5 text-sm font-bold text-white shadow-lg transition hover:bg-lilac-800 active:scale-95"
-                // >
-                //   زودتر خبرم کنید
-                //   <ArrowLeft className="h-4 w-4 transition-transform duration-300 group-hover:-translate-x-1" />
-                // </a>
+                <a
+                  href="#newsletter"
+                  className="group mt-6 inline-flex items-center gap-2 rounded-full bg-ink px-6 py-3.5 text-sm font-bold text-white shadow-lg transition hover:bg-lilac-800 active:scale-95"
+                >
+                  خبرنامه
+                  <ArrowLeft className="h-4 w-4 transition-transform duration-300 group-hover:-translate-x-1" />
+                </a>
               )}
             </div>
 
