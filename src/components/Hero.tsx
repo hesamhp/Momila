@@ -25,22 +25,23 @@ export default function Hero() {
           <Reveal>
             <span className="inline-flex items-center gap-2 rounded-full border border-lilac-200 bg-white/80 px-4 py-2 text-xs font-bold text-lilac-700 shadow-sm shadow-lilac-100 backdrop-blur">
               <Sparkles className="h-3.5 w-3.5 text-lilac-500" />
-              لوازم‌التحریر، این بار به رنگِ رویاها
+              لوازم تحریر ، این بار فانتزی و خاص
             </span>
           </Reveal>
 
           <Reveal delay={0.08}>
             <h1 className="mt-7 text-[2.7rem] font-black leading-[1.18] tracking-tight sm:text-6xl lg:text-[4.1rem]">
-              مدرسه را به رنگِ
-              <br />
-              <span className="marker">رویاها</span> دربیاورید
+             مومیلا یه دوست خوب 
+             <br />
+             تو
+              <span className="marker">مدرسه اته</span> 
             </h1>
           </Reveal>
 
           <Reveal delay={0.16}>
             <p className="mx-auto mt-6 max-w-xl text-[15px] leading-8 text-mist sm:text-base sm:leading-9 lg:mx-0">
-              مومیلا با دفترهای پاستلی، نوشت‌افزارهای رنگی و طراحیِ
-              کودک‌پسند، خلاقیت را به کلاس درس می‌آورد؛ سبک، مینیمال و
+              مومیلا با لوازم تحریر قشنگ ، نوشت‌افزارهای رنگی و طراحیِ
+              کودک‌پسند، خلاقیت را به کلاس درس می‌آورد؛ شاداب و
               دوست‌داشتنی، درست مثل کیف مدرسه‌ی رویاییِ بچه‌ها.
             </p>
           </Reveal>

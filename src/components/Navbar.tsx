@@ -63,7 +63,7 @@ export default function Navbar() {
         <div className="flex items-center gap-2">
           <a
             href="#customers"
-            aria-label="گالری مشتریان"
+            aria-label="گالری دوستامون"
             className="grid h-11 w-11 place-items-center rounded-full border border-lilac-200 bg-white text-lilac-700 transition hover:border-lilac-400 hover:text-lilac-600 active:scale-95"
           >
             <Camera className="h-5 w-5" />
