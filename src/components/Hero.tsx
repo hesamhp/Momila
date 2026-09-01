@@ -109,7 +109,7 @@ export default function Hero() {
                 <span>
                   <span className="block text-sm font-extrabold">ارسال رایگان</span>
                   <span className="block text-[11px] font-medium text-mist">
-                    خرید بالای ۵۰۰ هزار تومان
+                   برای شهر ساری و جویبار
                   </span>
                 </span>
               </div>
