@@ -45,7 +45,7 @@ export default function Testimonials() {
           icon={MessageCircleHeart}
           title={
             <>
-             حرف‌هایی که به <span className="marker-blush">انرژی</span>{" "}
+             حرف‌هایی که به ما <span className="marker-blush">انرژی</span>{" "}
               می‌دهد
             </>
           }
