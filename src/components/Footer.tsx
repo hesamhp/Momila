@@ -122,7 +122,7 @@ export default function Footer() {
                   <MapPin className="h-4 w-4" />
                 </span>
                 <span className="leading-6">
-                  جویبار ، خیابان فلان و کوچه فلان
+                  جویبار ، میدان شهدا پاساژ اقبال
                 </span>
               </li>
             </ul>
